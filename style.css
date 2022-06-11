@@ -1,12 +1,12 @@
 * {
  margin: 0;
  padding: 0;
- box-sizing: dorder-box;
+ box-sizing: border-box;
  font-family: 'Oswald',sans-serif;
 }
 
-body{
-    background: #ffe3e0;
+body {
+ background: #ffe3e0;
 
 }
 
@@ -31,8 +31,9 @@ ul li a {
 ul li a:hover{
     opacity: 1;
     font-weight: 600;
-    
+    color: #EF6351;
 }
+
 ul {
     display:flex;
     justify-content: center;
@@ -41,6 +42,30 @@ ul {
 }
 
 .imgcar{
-    width: 500px;
+    width: 600px;
+    height: 592px;
+}
+
+.caixa1 {
+    background-color: white;
+    padding: 20px;
+    width: 530px;
     height: 500px;
+    box-shadow: 0px 10px 62px 38px rgba(0,0,0,0.1);
+}
+
+.sessao1 {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1-sessao-bolo {
+    padding: 150px 50px;
+    color: #EF6351;
+}
+
+.carrosel-bolo {
+    box-shadow: 0px 0px 48px 20px rgba(0,0,0,0.2);
 }
