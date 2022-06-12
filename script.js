@@ -1,0 +1,1 @@
+ScrollReveal().reveal('.criadora', {delay: 700});
